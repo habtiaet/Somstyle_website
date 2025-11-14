@@ -15,7 +15,7 @@ export default function About() {
             </p>
             
             <p className="text-lg text-somstyle-gray-dark/80 mb-6 leading-relaxed">
-              Onze producten combineren een frisse, moderne uitstraling met functioneel ontwerp. We letten op details zoals gebruiksgemak, eenvoudige montage en doordachte extra's. Zo kunt u onze producten direct gebruiken, zonder gedoe.
+              Onze producten combineren een frisse, moderne uitstraling met functioneel ontwerp. We letten op details zoals gebruiksgemak, eenvoudige montage en doordachte extra&apos;s. Zo kunt u onze producten direct gebruiken, zonder gedoe.
             </p>
             
             <p className="text-lg text-somstyle-gray-dark/80 mb-8 leading-relaxed">

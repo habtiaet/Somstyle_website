@@ -63,7 +63,7 @@ export default function DisclaimerPage() {
                 6. Intellectueel eigendom
               </h2>
               <p className="mb-4">
-                Alle rechten met betrekking tot de inhoud van deze website, inclusief teksten, afbeeldingen, logo's en andere materialen, berusten bij Easycheck Com B.V. of de respectieve rechthebbenden. Het zonder toestemming kopiëren, verspreiden of anderszins gebruiken van deze materialen is niet toegestaan.
+                Alle rechten met betrekking tot de inhoud van deze website, inclusief teksten, afbeeldingen, logo&apos;s en andere materialen, berusten bij Easycheck Com B.V. of de respectieve rechthebbenden. Het zonder toestemming kopiëren, verspreiden of anderszins gebruiken van deze materialen is niet toegestaan.
               </p>
             </section>
             

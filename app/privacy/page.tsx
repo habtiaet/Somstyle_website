@@ -22,7 +22,7 @@ export default function PrivacyPage() {
                 1. Inleiding
               </h2>
               <p className="mb-4">
-                Easycheck Com B.V. (hierna: "Somstyle", "wij", "ons" of "onze") respecteert uw privacy en zet zich in voor de bescherming van uw persoonlijke gegevens. Deze privacyverklaring legt uit hoe wij uw persoonlijke gegevens verzamelen, gebruiken en beschermen wanneer u onze website bezoekt of contact met ons opneemt.
+                Easycheck Com B.V. (hierna: &quot;Somstyle&quot;, &quot;wij&quot;, &quot;ons&quot; of &quot;onze&quot;) respecteert uw privacy en zet zich in voor de bescherming van uw persoonlijke gegevens. Deze privacyverklaring legt uit hoe wij uw persoonlijke gegevens verzamelen, gebruiken en beschermen wanneer u onze website bezoekt of contact met ons opneemt.
               </p>
             </section>
             
