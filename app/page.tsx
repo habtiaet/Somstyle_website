@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import Statistics from '@/components/Statistics';
 import About from '@/components/About';
 import Products from '@/components/Products';
 import Contact from '@/components/Contact';
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <Statistics />
       <About />
       <Products />
       <Contact />
@@ -19,6 +21,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
