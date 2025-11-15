@@ -23,10 +23,10 @@ export default function About() {
             </p>
           </div>
           
-          <div className="bg-white rounded-lg shadow-md p-8 md:p-12 mt-12">
+          <div className="bg-somstyle-gray-light rounded-lg shadow-lg p-8 md:p-12 mt-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* First Statistic */}
-              <div className="text-center md:text-center border-b md:border-b-0 md:border-r border-somstyle-gray-light pb-8 md:pb-0 md:pr-8 last:border-0">
+              <div className="text-center md:text-center border-b md:border-b-0 md:border-r border-white/50 pb-8 md:pb-0 md:pr-8 last:border-0">
                 <div className="text-4xl md:text-5xl font-bold text-somstyle-blue mb-3">
                   5+
                 </div>
@@ -36,7 +36,7 @@ export default function About() {
               </div>
               
               {/* Second Statistic */}
-              <div className="text-center md:text-center border-b md:border-b-0 md:border-r border-somstyle-gray-light pb-8 md:pb-0 md:pr-8 last:border-0">
+              <div className="text-center md:text-center border-b md:border-b-0 md:border-r border-white/50 pb-8 md:pb-0 md:pr-8 last:border-0">
                 <div className="text-4xl md:text-5xl font-bold text-somstyle-blue mb-3">
                   1500+
                 </div>
