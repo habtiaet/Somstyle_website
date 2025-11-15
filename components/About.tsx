@@ -23,26 +23,37 @@ export default function About() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12">
-            <div className="bg-somstyle-gray-light p-6 rounded-lg">
-              <div className="text-somstyle-blue text-3xl mb-3">✨</div>
-              <h3 className="font-semibold text-somstyle-gray-dark mb-2">
-                Slimme oplossingen voor elke dag
-              </h3>
-            </div>
-            
-            <div className="bg-somstyle-gray-light p-6 rounded-lg">
-              <div className="text-somstyle-blue text-3xl mb-3">🔧</div>
-              <h3 className="font-semibold text-somstyle-gray-dark mb-2">
-                Praktisch in gebruik en eenvoudig te installeren
-              </h3>
-            </div>
-            
-            <div className="bg-somstyle-gray-light p-6 rounded-lg">
-              <div className="text-somstyle-blue text-3xl mb-3">🏠</div>
-              <h3 className="font-semibold text-somstyle-gray-dark mb-2">
-                Ontworpen voor een opgeruimd en comfortabel huis
-              </h3>
+          <div className="bg-white rounded-lg shadow-md p-8 md:p-12 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* First Statistic */}
+              <div className="text-center md:text-center border-b md:border-b-0 md:border-r border-somstyle-gray-light pb-8 md:pb-0 md:pr-8 last:border-0">
+                <div className="text-4xl md:text-5xl font-bold text-somstyle-blue mb-3">
+                  5+
+                </div>
+                <div className="text-lg md:text-xl font-semibold text-somstyle-gray-dark">
+                  Jaar ervaring
+                </div>
+              </div>
+              
+              {/* Second Statistic */}
+              <div className="text-center md:text-center border-b md:border-b-0 md:border-r border-somstyle-gray-light pb-8 md:pb-0 md:pr-8 last:border-0">
+                <div className="text-4xl md:text-5xl font-bold text-somstyle-blue mb-3">
+                  1500+
+                </div>
+                <div className="text-lg md:text-xl font-semibold text-somstyle-gray-dark">
+                  Producten
+                </div>
+              </div>
+              
+              {/* Third Statistic */}
+              <div className="text-center md:text-center">
+                <div className="text-4xl md:text-5xl font-bold text-somstyle-blue mb-3">
+                  400.000+
+                </div>
+                <div className="text-lg md:text-xl font-semibold text-somstyle-gray-dark">
+                  Tevreden klanten
+                </div>
+              </div>
             </div>
           </div>
         </div>
