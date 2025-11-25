@@ -1,6 +1,6 @@
 # Somstyle Website
 
-Een moderne one-page website voor Somstyle, gebouwd met Next.js, TypeScript en Tailwind CSS.
+Een moderne one-page website voor Somstyle, gebouwd met Next.js, TypeScript en Tailwind CSS!
 
 ## Features
 
