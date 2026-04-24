@@ -12,50 +12,51 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen overflow-hidden bg-somstyle-ink pt-28 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,rgba(4,228,255,0.28),transparent_26%),radial-gradient(circle_at_80%_8%,rgba(248,245,239,0.16),transparent_24%),linear-gradient(135deg,#101820_0%,#16232d_52%,#f8f5ef_52%,#ffffff_100%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,rgba(4,228,255,0.26),transparent_28%),radial-gradient(circle_at_80%_8%,rgba(248,245,239,0.10),transparent_24%),linear-gradient(160deg,#101820_0%,#132531_100%)]" />
+      <div className="absolute inset-0 hidden bg-[linear-gradient(135deg,transparent_0%,transparent_52%,rgba(248,245,239,0.96)_52%,#ffffff_100%)] lg:block" />
       <div className="absolute left-1/2 top-24 h-72 w-72 -translate-x-1/2 rounded-full bg-somstyle-blue/20 blur-3xl" />
       <div className="container relative mx-auto px-4 py-20 md:py-28">
-        <div className="grid items-center gap-14 lg:grid-cols-[1.02fr_0.98fr]">
-          <div className="max-w-3xl">
-            <div className="mb-6 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-somstyle-blue backdrop-blur">
+        <div className="grid min-w-0 items-center gap-14 lg:grid-cols-[1.02fr_0.98fr]">
+          <div className="w-full min-w-0 max-w-[calc(100vw-2rem)] rounded-[2rem] border border-white/10 bg-somstyle-ink/72 p-4 shadow-premium backdrop-blur-md sm:max-w-3xl sm:p-6 lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none">
+            <div className="mb-6 inline-flex max-w-full items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-somstyle-blue backdrop-blur sm:text-xs sm:tracking-[0.28em]">
               Premium everyday essentials
             </div>
-            <h1 className="mb-6 text-4xl font-black leading-[1.02] tracking-[-0.04em] sm:text-5xl md:text-7xl">
+            <h1 className="mb-6 max-w-[18rem] text-[2.15rem] font-black leading-[1.06] tracking-[-0.025em] sm:max-w-full sm:text-5xl md:text-7xl">
               Slim wonen begint bij verfijnde details.
             </h1>
-            <p className="mb-6 text-xl font-medium leading-relaxed text-white/80 md:text-2xl">
+            <p className="mb-6 max-w-[18rem] text-lg font-medium leading-relaxed text-white/92 sm:max-w-2xl sm:text-xl md:text-2xl">
               Somstyle maakt praktische producten die rust brengen in huis, onderweg en in uw dagelijkse routines.
             </p>
-            <p className="mb-10 max-w-2xl text-base leading-8 text-white/60 md:text-lg">
+            <p className="mb-10 max-w-[18rem] text-sm leading-7 text-white/82 sm:max-w-2xl sm:text-base md:text-lg">
               Ontdek doordachte opbergers, accessoires en huishoudelijke helpers met een moderne uitstraling. Exclusief verkrijgbaar via bol.com.
             </p>
-            <div className="flex flex-col gap-4 sm:flex-row">
+            <div className="flex w-full flex-col gap-4 sm:flex-row">
               <a
                 href="https://www.bol.com/nl/nl/s/?searchtext=somstyle"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center justify-center rounded-full bg-somstyle-blue px-8 py-4 text-base font-extrabold text-somstyle-ink shadow-[0_16px_40px_rgba(4,228,255,0.28)] transition-all hover:-translate-y-1 hover:bg-white"
+                className="group inline-flex w-full items-center justify-center rounded-full bg-somstyle-blue px-5 py-4 text-base font-extrabold text-somstyle-ink shadow-[0_16px_40px_rgba(4,228,255,0.28)] transition-all hover:-translate-y-1 hover:bg-white sm:w-auto sm:px-8"
               >
                 Bekijk op bol.com
                 <span className="ml-2 transition-transform group-hover:translate-x-1">→</span>
               </a>
               <button
                 onClick={scrollToContact}
-                className="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/10 px-8 py-4 text-base font-extrabold text-white backdrop-blur transition-all hover:-translate-y-1 hover:bg-white hover:text-somstyle-ink"
+                className="inline-flex w-full items-center justify-center rounded-full border border-white/30 bg-somstyle-ink/70 px-5 py-4 text-base font-extrabold text-white backdrop-blur transition-all hover:-translate-y-1 hover:bg-white hover:text-somstyle-ink sm:w-auto sm:px-8"
               >
                 Vraag klantenservice
               </button>
             </div>
-            <div className="mt-12 max-w-xl space-y-2 rounded-[1.75rem] border border-white/15 bg-somstyle-ink/82 p-3 text-white/78 shadow-premium backdrop-blur-md">
-              <div className="rounded-2xl bg-white/8 p-4">
+            <div className="mt-12 w-full max-w-xl space-y-2 rounded-[1.75rem] border border-white/20 bg-[#07131a]/95 p-3 text-white/86 shadow-premium backdrop-blur-md">
+              <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
                 <p className="text-2xl font-black text-white">5+</p>
                 <p className="mt-1 text-xs uppercase tracking-[0.2em]">Jaar</p>
               </div>
-              <div className="rounded-2xl bg-white/8 p-4">
+              <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
                 <p className="text-2xl font-black text-white">1500+</p>
                 <p className="mt-1 text-xs uppercase tracking-[0.2em]">Producten</p>
               </div>
-              <div className="rounded-2xl bg-white/8 p-4">
+              <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
                 <p className="text-2xl font-black text-white">400k+</p>
                 <p className="mt-1 text-xs uppercase tracking-[0.2em]">Klanten</p>
               </div>
