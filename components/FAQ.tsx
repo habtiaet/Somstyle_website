@@ -38,28 +38,35 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-20 bg-somstyle-gray-light">
+    <section id="faq" className="relative overflow-hidden bg-somstyle-cream py-24">
+      <div className="absolute left-0 top-24 h-72 w-72 rounded-full bg-somstyle-blue/10 blur-3xl" />
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-somstyle-gray-dark mb-12 text-center">
+          <p className="mb-3 text-center text-xs font-semibold uppercase tracking-[0.35em] text-somstyle-blue-deep">
+            Service
+          </p>
+          <h2 className="text-center text-3xl font-semibold tracking-tight text-somstyle-ink md:text-5xl">
             Veelgestelde vragen
           </h2>
+          <p className="mx-auto mb-12 mt-5 max-w-2xl text-center text-lg leading-relaxed text-somstyle-ink/65">
+            Heldere antwoorden over bestellen, garantie en ondersteuning na aankoop.
+          </p>
           
           <div className="space-y-4">
             {faqItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden"
+                className="overflow-hidden rounded-[1.5rem] border border-somstyle-ink/10 bg-white/85 shadow-premium-soft backdrop-blur"
               >
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-somstyle-gray-light transition-colors"
+                  className="flex w-full items-center justify-between px-6 py-5 text-left transition-colors hover:bg-somstyle-cream/70"
                 >
-                  <span className="font-semibold text-somstyle-gray-dark pr-4">
+                  <span className="pr-4 font-semibold text-somstyle-ink">
                     {item.question}
                   </span>
                   <span
-                    className={`text-somstyle-blue text-2xl transition-transform flex-shrink-0 ${
+                    className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-somstyle-blue/15 text-lg text-somstyle-blue-deep transition-transform ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   >
@@ -71,7 +78,7 @@ export default function FAQ() {
                     openIndex === index ? 'max-h-96' : 'max-h-0'
                   }`}
                 >
-                  <div className="px-6 py-4 text-somstyle-gray-dark/80 leading-relaxed">
+                  <div className="px-6 pb-6 pt-1 leading-relaxed text-somstyle-ink/70">
                     {item.answer}
                   </div>
                 </div>

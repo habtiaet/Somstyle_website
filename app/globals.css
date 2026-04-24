@@ -11,7 +11,12 @@ html {
 }
 
 body {
-  @apply text-somstyle-gray-dark bg-white;
+  @apply bg-somstyle-cream text-somstyle-ink;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  @apply bg-somstyle-blue/30 text-somstyle-ink;
 }
 
 

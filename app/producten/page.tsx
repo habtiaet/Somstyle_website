@@ -65,45 +65,50 @@ export default function ProductenPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow pt-20 bg-somstyle-gray-light">
-        <section className="py-20">
+      <main className="flex-grow pt-20 bg-somstyle-cream">
+        <section className="py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h1 className="text-3xl md:text-4xl font-bold text-somstyle-gray-dark mb-4 text-center">
-                Onze Somstyle producten
-              </h1>
-              
-              <p className="text-lg text-somstyle-gray-dark/70 mb-12 text-center max-w-3xl mx-auto">
-                Somstyle biedt verschillende producten voor in en om het huis. Hieronder ziet u een aantal categorieën waarin onze artikelen vaak worden gebruikt. Voor het complete en actuele overzicht verwijzen we u graag naar bol.com.
-              </p>
+              <div className="mx-auto mb-14 max-w-3xl text-center">
+                <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-somstyle-blue-deep">
+                  Assortiment
+                </p>
+                <h1 className="text-4xl font-semibold tracking-tight text-somstyle-ink md:text-5xl">
+                  Onze Somstyle producten
+                </h1>
+                <p className="mt-5 text-lg leading-8 text-somstyle-gray-dark/70">
+                  Somstyle biedt verschillende producten voor in en om het huis. Hieronder ziet u een aantal categorieën waarin onze artikelen vaak worden gebruikt. Voor het complete en actuele overzicht verwijzen we u graag naar bol.com.
+                </p>
+              </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 {categories.map((category, index) => (
                   <div
                     key={index}
-                    className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                    className="group overflow-hidden rounded-[2rem] border border-white bg-white shadow-premium-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-premium"
                   >
-                    <div className="relative h-48 w-full">
+                    <div className="relative h-56 w-full overflow-hidden">
                       <Image
                         src={category.imageUrl}
                         alt={category.title}
                         fill
-                        className="object-cover"
+                        className="object-cover transition duration-700 group-hover:scale-105"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
+                      <div className="absolute inset-0 bg-gradient-to-t from-somstyle-ink/35 to-transparent" />
                     </div>
-                    <div className="p-6">
-                      <h2 className="text-xl font-bold text-somstyle-gray-dark mb-3">
+                    <div className="p-7">
+                      <h2 className="text-2xl font-semibold tracking-tight text-somstyle-ink mb-3">
                         {category.title}
                       </h2>
-                      <p className="text-somstyle-gray-dark/70 mb-4 leading-relaxed">
+                      <p className="text-somstyle-gray-dark/70 mb-6 leading-relaxed">
                         {category.description}
                       </p>
                       <a
                         href={category.bolUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-somstyle-blue text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all font-medium"
+                        className="inline-flex items-center rounded-full bg-somstyle-ink px-5 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-somstyle-blue-deep"
                       >
                         {category.buttonText}
                       </a>
@@ -117,7 +122,7 @@ export default function ProductenPage() {
                   href="https://www.bol.com/nl/nl/s/?searchtext=somstyle"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-somstyle-gray-dark text-white px-8 py-4 rounded-full hover:bg-opacity-90 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  className="inline-flex rounded-full bg-somstyle-ink px-8 py-4 font-semibold text-white shadow-premium-soft transition-all hover:-translate-y-0.5 hover:bg-somstyle-blue-deep"
                 >
                   Bekijk alle Somstyle producten op bol.com
                 </a>
@@ -126,9 +131,9 @@ export default function ProductenPage() {
               <div className="text-center">
                 <Link
                   href="/"
-                  className="text-somstyle-blue hover:underline font-medium"
+                  className="font-medium text-somstyle-blue-deep hover:underline"
                 >
-                  ← Terug naar homepage
+                  Terug naar homepage
                 </Link>
               </div>
             </div>
