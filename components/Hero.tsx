@@ -46,7 +46,7 @@ export default function Hero() {
                 Vraag klantenservice
               </button>
             </div>
-            <div className="mt-12 flex max-w-xl flex-col gap-2 rounded-[1.75rem] border border-white/15 bg-somstyle-ink/82 p-3 text-white/78 shadow-premium backdrop-blur-md lg:grid lg:grid-cols-3 lg:gap-4 lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:border-0 lg:border-t lg:border-white/10 lg:pt-8">
+            <div className="hero-stats mt-12 flex max-w-xl flex-col gap-2 rounded-[1.75rem] border border-white/15 bg-somstyle-ink/82 p-3 text-white/78 shadow-premium backdrop-blur-md lg:grid lg:grid-cols-3 lg:gap-4 lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:border-0 lg:border-t lg:border-white/10 lg:pt-8">
               <div className="rounded-2xl bg-white/8 p-4 lg:bg-transparent lg:p-0">
                 <p className="text-2xl font-black text-white">5+</p>
                 <p className="mt-1 text-xs uppercase tracking-[0.2em]">Jaar</p>

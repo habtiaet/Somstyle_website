@@ -19,6 +19,13 @@ body {
   @apply bg-somstyle-blue/30 text-somstyle-ink;
 }
 
+@media (max-width: 1023px) {
+  .hero-stats {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
 
 
 
