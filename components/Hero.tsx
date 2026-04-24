@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="mb-6 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-somstyle-blue backdrop-blur">
               Premium everyday essentials
             </div>
-            <h1 className="mb-6 text-5xl font-black leading-[0.95] tracking-[-0.05em] md:text-7xl">
+            <h1 className="mb-6 text-4xl font-black leading-[1.02] tracking-[-0.04em] sm:text-5xl md:text-7xl">
               Slim wonen begint bij verfijnde details.
             </h1>
             <p className="mb-6 text-xl font-medium leading-relaxed text-white/80 md:text-2xl">
