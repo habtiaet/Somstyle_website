@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute left-1/2 top-24 h-72 w-72 -translate-x-1/2 rounded-full bg-somstyle-blue/20 blur-3xl" />
       <div className="container relative mx-auto px-4 py-20 md:py-28">
         <div className="grid min-w-0 items-center gap-14 lg:grid-cols-[1.02fr_0.98fr]">
-          <div className="w-full min-w-0 max-w-[calc(100vw-2rem)] rounded-[2rem] border border-white/10 bg-somstyle-ink/72 p-4 shadow-premium backdrop-blur-md sm:max-w-3xl sm:p-6 lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none">
+          <div className="w-full min-w-0 max-w-3xl">
             <div className="mb-6 inline-flex max-w-full items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-somstyle-blue backdrop-blur sm:text-xs sm:tracking-[0.28em]">
               Premium everyday essentials
             </div>
@@ -46,20 +46,6 @@ export default function Hero() {
               >
                 Vraag klantenservice
               </button>
-            </div>
-            <div className="mt-12 w-full max-w-xl space-y-2 rounded-[1.75rem] border border-white/20 bg-[#07131a]/95 p-3 text-white/86 shadow-premium backdrop-blur-md">
-              <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
-                <p className="text-2xl font-black text-white">5+</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em]">Jaar</p>
-              </div>
-              <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
-                <p className="text-2xl font-black text-white">1500+</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em]">Producten</p>
-              </div>
-              <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
-                <p className="text-2xl font-black text-white">400k+</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em]">Klanten</p>
-              </div>
             </div>
           </div>
 
